@@ -2,7 +2,6 @@
 
 open Suave
 open Suave.Web
-open Suave.Http.Successful
 
-let app = OK "Welcome to the todo app"
+let app = Successful.OK "Welcome to the todo app"
 
